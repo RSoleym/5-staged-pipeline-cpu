@@ -10,18 +10,27 @@ The design follows a Harvard architecture and focuses on correct pipelining, con
 Pipeline:
 
 IF - Instruction Fetch
+
 ID - Instruction Decode
+
 EX - Execute / Branch
+
 MEM - Data Memory
+
 WB - Write Back
 
 ISA (v1):
 
 LOAD, STORE
+
 ADD, SUB, AND
+
 BEQ, JMP
+
 MOV
+
 8 general-purpose registers (R0-R7)
+
 32-bit registers and instructions
 
 Status: In design / planning phase.
