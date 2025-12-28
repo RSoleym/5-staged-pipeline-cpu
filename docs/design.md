@@ -35,6 +35,8 @@ Instructions:
 001001 -> MOV: copies register to a register
 
 
+
+
 Vivado stores the data in Instruction RAM, starting from address zero.
 CPU Fetch, reads the Instructions using an increment from 0.
 

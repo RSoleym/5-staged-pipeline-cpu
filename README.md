@@ -22,8 +22,11 @@ WB - Write Back
 ISA (v1):
 
 LOAD, STORE
+
 ADD, ADDI, SUB, AND
+
 BEQ, JMP
+
 MOV
 
 8 general-purpose registers (R0-R7)
@@ -55,4 +58,3 @@ ASM -> HEX Assembler Completed
 CPU datapath and piepline stages in progress
 
 Target: FPGA-based implementation with instruction-level verification.
-
